@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product-detail.css">
+    <script src="https://kit.fontawesome.com/d210f2522a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="product-detail.js"></script>
+    <title>Product Detail</title>
+    
+</head>
+<body>
+
+    <nav>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+
+        <div class="logo">
+            <img src="img/logo.png" >
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>          
+        </ul>
+
+        <div class="search-cont">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+              <g>
+                <path
+                  d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                ></path>
+              </g>
+            </svg>
+            <input class="input" type="search" placeholder="Search something here" />
+        </div>
+
+        <a href="#">
+            <button class="button type1">
+            <span class="btn-txt">Join the community</span>
+            </button>
+        </a>
+        <div class="search-hide"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </nav>  
+
+
+    <main>
+        <div class="main-container">
+            <div class="main-content">
+                <div class="left-cont">
+                    <div class="CSSgal">
+
+                        <!-- Don't wrap targets in parent -->
+                        <s id="s1"></s> 
+                        <s id="s2"></s>
+                        <s id="s3"></s>
+                        <s id="s4"></s>
+                      
+                        <div class="slider">
+                          <div>
+                                <img src="img/shiba1.png" alt="">
+                              </div>
+                          <div>
+                                    <img src="img/shiba2.png" alt="">
+                              </div>
+                          <div>
+                                  <img src="img/shiba3.png" alt="">
+                              </div>
+                          <div>
+                                  <img src="img/shiba4.png" alt="">
+                              </div>
+                        </div>
+                        
+                        <div class="prevNext">
+                          <div><a href="#s4"> <button class="next-btn"><</button> </a> <a href="#s2"> <button class="next-btn">></button> </a></div>
+                          <div><a href="#s1"> <button class="next-btn"><</button> </a><a href="#s3"> <button class="next-btn">></button> </a></div>
+                          <div><a href="#s2"> <button class="next-btn"><</button> </a><a href="#s4"> <button class="next-btn">></button></a></div>
+                          <div><a href="#s3"> <button class="next-btn"><</button> </a><a href="#s1"> <button class="next-btn">></button> </a></div>
+                        </div>
+                      
+                
+                      </div>
+                      <div class="bullets">
+                        <a href="#s1"><img src="img/shiba1.png" alt=""></a>
+                        <a href="#s2"><img src="img/shiba2.png" alt=""></a>
+                        <a href="#s3"><img src="img/shiba3.png" alt=""></a>
+                        <a href="#s4"><img src="img/shiba5.png" alt=""></a>
+                    </div>
+
+                     
+                </div>
+
+                <div class="right-cont">
+                    <div class="mainheader">
+                        <p>Home</p>
+                        <p> > </p>
+                        <p>Dog</p>
+                        <p> > </p>
+                        <p>Large Dog</p>
+                        <p> > </p>
+                        <p>Shiba Inu Sepia</p>
+                    </div>
+
+                    <div class="prod-title">
+                        <p>SKU #10000078</p>
+                        <h1>Shiba Inu Sepia</h1>
+                        <h1 class="price1">₱ 35,000.00</h1>
+                    </div>
+
+                    <div class="prodbtn-cont">
+                        <a href=""><button>Contact us</button></a>
+                        <a href=""><button><i class="fa-brands fa-rocketchat chat"></i> Chat with Monito</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+</html>
