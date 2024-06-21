@@ -474,10 +474,38 @@ input:hover {
   }
   
   .price {
+    display: flex;
     font-weight: 600;
     font-size: 1rem;
     padding-top: 20px;
     color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .view-deets {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .view-deets button {
+    border: 1px solid #002A48;
+    padding: 0.5rem;
+    width: 8rem;
+    border-radius: 20px;
+    color: #002A48;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .view-deets button:hover {
+    background-color: #002A48;
+    color: white;
   }
 
   .hidden {
@@ -887,6 +915,16 @@ input:hover {
 
     .author {
       font-size: 0.8rem;
+    }
+
+    .price {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .view-deets button {
+      font-size: 0.6rem;
     }
 
     .button-cont {
